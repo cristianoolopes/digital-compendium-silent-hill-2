@@ -67,7 +67,7 @@ section {
 .div-content-01 {
     height: 60%;
     width: 100%;
-    max-width: 940px;
+    max-width: 1024px;
     box-sizing: border-box;
     padding: 40px 60px;
     display: grid;
@@ -87,7 +87,7 @@ section {
     font-size: 24px;
     color: #812929;
     font-weight: bold;
-    margin: 20px 0;
+    margin: 0 0 20px;
 }
 
 p {
@@ -113,6 +113,7 @@ p {
 .quote p {
     font-size: 17px;
     color: #812929;
+    text-align: justify;
 }
 
 .content-elements-01 {
@@ -120,3 +121,12 @@ p {
     justify-content: space-evenly;
     flex-direction: column;
 }
+
+.div-img-content-01{
+    height: 200px;
+}
+
+.img-content-01 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
