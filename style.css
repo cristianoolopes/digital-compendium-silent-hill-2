@@ -40,9 +40,6 @@ section {
     font-size: 30px;
 }
 
-#intro {
-    /* display: flex; */
-}
 
 .intro-container {
     display: flex;
@@ -107,11 +104,10 @@ p {
 }
 
 .barra {
-    width: 2px;
-    background: #812929;
     border-radius: 2px;
     height: 100%;
     margin-right: 20px;
+    border: 1px solid #812929
 }
 
 .quote p {
